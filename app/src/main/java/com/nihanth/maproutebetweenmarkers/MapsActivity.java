@@ -88,7 +88,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         String[] urls = new String[latlngs.size()-1];
         for(int i=0;i<urls.length;i++)
         {
-            urls[i] = getDirectionsUrl(latlngs.get(i), latlngs.get(i+1)) + "&key=AIzaSyCLYpdfkqJlpaVgUrkzulzYr3uvspxd3wU";
+            urls[i] = getDirectionsUrl(latlngs.get(i), latlngs.get(i+1)) + "&key=<KEY>";
         }
        // url=url+"&key=AIzaSyBK6C2_vlhw2pMEBrUdCfFsZ74HHB652cs";
        // url_mod=url_mod+"&key=AIzaSyBK6C2_vlhw2pMEBrUdCfFsZ74HHB652cs";
